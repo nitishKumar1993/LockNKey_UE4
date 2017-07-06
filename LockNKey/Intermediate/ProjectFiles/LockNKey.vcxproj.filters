@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\LockNKey.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F2442612-75E7-4106-AA65-A53FC902E864}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LockNKey.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LockNKeyEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AF1ECD2D-0295-42F1-8BFB-A9F8E37F8020}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\LockNKey">
+      <UniqueIdentifier>{8AF333FD-4A60-4DC2-9084-9224497F0BBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LockNKey\LockNKey.Build.cs">
+      <Filter>Source\LockNKey</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LockNKey\LockNKey.cpp">
+      <Filter>Source\LockNKey</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LockNKey\LockNKey.h">
+      <Filter>Source\LockNKey</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LockNKey\LockNKeyGameModeBase.cpp">
+      <Filter>Source\LockNKey</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LockNKey\LockNKeyGameModeBase.h">
+      <Filter>Source\LockNKey</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\LockNKey\Players">
+      <UniqueIdentifier>{0e58375f-31ce-49f7-9145-823f7236acf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LockNKey\Players\GameCharacter.h">
+      <Filter>Source\LockNKey\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LockNKey\Players\GameCharacterPlayerController.h">
+      <Filter>Source\LockNKey\Players</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LockNKey\Players\GameCharacter.cpp">
+      <Filter>Source\LockNKey\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LockNKey\Players\GameCharacterPlayerController.cpp">
+      <Filter>Source\LockNKey\Players</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
